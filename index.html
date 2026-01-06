@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student Result Analyzer</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Student Result Analyzer</h2>
+
+        <label>Student Name</label>
+        <input type="text" id="studentName" placeholder="Enter student name">
+
+        <label>Enter Marks (comma separated)</label>
+        <input type="text" id="marks" placeholder="Example: 78,45,90,32,67">
+
+        <button onclick="calculateResult()">Submit</button>
+
+        <div id="result" class="result"></div>
+
+        <!-- shopping cart analyzer -->
+        <h2 style="margin-top: 50px;">Shopping Cart Analyzer</h2>
+
+        <label>Customer Name</label>
+        <input type="text" id="customerName" placeholder="Enter customer name">
+
+        <label>Product Prices (comma separated)</label>
+        <input type="text" id="prices" placeholder="Example: 1200,450,800,300,150">
+
+        <button onclick="analyzeCart()">🛒Analyze Cart</button>
+
+        <div id="result" class="result"></div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
