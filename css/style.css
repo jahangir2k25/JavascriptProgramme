@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: #0f1520;
+    background: #00b3ff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +38,7 @@ button {
     width: 100%;
     margin-top: 15px;
     padding: 10px;
-    background: #007bff;
+    background: #00b3ff;
     color: white;
     border: none;
     border-radius: 5px;
